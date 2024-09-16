@@ -40,8 +40,8 @@ const TextEditor = () => {
             </select>
         </div>
         <p>Fonte: {fontSize}px</p>
-        <button onClick={increase}>+</button>
-        <button onClick={decrease}>-</button>
+        <button className="btn btn-secondary" onClick={increase}>+</button>
+        <button className="btn btn-secondary" onClick={decrease}>-</button>
         <p style={{fontSize: fontSize, color: textColor}} id="pg">Tempoor occaecat cillum laboris pariatur id nulla nisi nulla labore elit fugiat ad ad. Exercitation velit labore in ex. Ex do sint commodo veniam. Reprehenderit nulla non ad labore amet consequat est magna aliquip reprehenderit labore reprehenderit mollit. Officia enim ex adipisicing deserunt velit aliquip. Lorem do nostrud id voluptate minim elit magna qui consectetur fugiat dolor laborum culpa nisi.</p>
     </div>;
 }

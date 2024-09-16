@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+//condicional
 
 const ShowPassword = () => {
     const [show, setShow] = useState(false);
@@ -11,7 +12,7 @@ const ShowPassword = () => {
     };
     return <div>
         <input type={show ? 'text' : 'password'}></input>
-        <button className="btn btn-primary" onClick={showPass}>Show</button>
+        <button className="btn btn-primary" onClick={showPass}>{show ? 'Hide' : 'Show'}</button>
     </div>
 }
 

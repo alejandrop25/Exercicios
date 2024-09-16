@@ -17,8 +17,8 @@ const Counter = () => {
     return(
         <div className="project">
             <p id="counterNum">{counter}</p>
-            <button onClick={increase}>+</button>
-            <button onClick={decrease}>-</button>
+            <button className="btn btn-secondary" onClick={increase}>+</button>
+            <button className="btn btn-secondary" onClick={decrease}>-</button>
         </div>
     );
 }

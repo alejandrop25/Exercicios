@@ -3,6 +3,7 @@ import Counter from './Counter';
 import TextEditor from './TextEditor';
 import CharCount from './CharCount';
 import ShowPassword from './ShowPassword';
+import Store from './Store';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -20,6 +21,7 @@ function App() {
         <br />
         <ShowPassword />
         <br />
+        <Store />
         <br />
         <a
           className="App-link"
@@ -28,7 +30,7 @@ function App() {
           rel="noopener noreferrer"
         >
           alejandrop2506@gmail.com
-        </a>q
+        </a>
       </header>
     </div>
   );

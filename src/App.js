@@ -4,8 +4,10 @@ import TextEditor from './TextEditor';
 import CharCount from './CharCount';
 import ShowPassword from './ShowPassword';
 import Store from './Store';
+import { BootstrapElement } from './BootstrapElement';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min';
 
 
 function App() {
@@ -23,6 +25,12 @@ function App() {
         <br />
         <Store />
         <br />
+        <br />
+        <h2 className='display-1'>Bootstrap</h2>
+        <br />
+        <BootstrapElement />
+        <br />
+
         <a
           className="App-link"
           href="mailto:alejandrop2506@gmail.com?subject=Contato&body=Olá!"
@@ -31,6 +39,7 @@ function App() {
         >
           alejandrop2506@gmail.com
         </a>
+        <br />
       </header>
     </div>
   );

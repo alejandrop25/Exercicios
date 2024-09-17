@@ -20,7 +20,9 @@ const TextEditor = () => {
         setTextColor(e.target.value);
     }
     const increase = () => {
-        setFontSize(fontSize + 2);
+        if(fontSize<90){
+            setFontSize(fontSize + 2);
+        }
     }
     const decrease = () => {
         if(fontSize>6){

@@ -12,7 +12,7 @@ const Store = () => {
     };
     const Card = ({ name, url, desc }) => {
         return <div id={name} class="card" style={{width: "18rem"}}>
-        <img class="card-img-top" src={url} alt="Card image" />
+        <img class="card-img-top" src={url} alt="Card" />
         <div class="card-body">
           <h5 class="card-title">{desc}</h5>
           <button onClick={handleClick} class="btn btn-primary">Add to cart</button>
